@@ -1,53 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <!-- Head Section -->
-    <head>
-    <!-- Insert head tag information here -->
-    </head>
-    
-    <!-- Body Tag - all items that we want depicted on our Webpage must be inside of this tag! -->
-    <body class="aluminum">
-        <!-- Header Section -->
-        <header class="container-fluid main-menu madla sticky-top">
-            <!-- Navbar code goes here -->
-            <h6>REEEEEEEEEEEEEEEEEEEEEEEEEEEEEE</h6>
-        </header>
-   
-        <!-- div element with a container-fluid class attribute - this, along with container, are the 'largest' Bootstrap 4 layout elements -
-        this element stretches across the entire screen vice a container that has set margins -->
-        <div class="container-fluid">
-            <!-- the row class attribute must be present in order for the column class attributes inside of Bootstrap 4 to work -->
-            <div class="row">
-                <!-- the first column class attribute of our row, it will stretch 4/12ths of the width of the screen - the align-self-stretch
-                class attribute will keep it aligned with other elements on the page -->
-                <div class="card col-md-4 align-self-stretch" style="margin-left: 2em !important;">
-                <!-- Insert Card1 here -->
-                </div>
-                
-                <div class="col-md-7 flex-column" style="margin-left: 3em !important;">
-                    <div class="row">
-                        <div class="card col-md-12"> 
-                          <!-- Insert Card2 here -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="card col-md-12">
-                            <!-- Insert Card3 here -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="card col-md-12">
-                            <!-- Insert Card4 here -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer Tag -->
-        <footer class="container-fluid madla center margin-top">
+  <head>
+  	<title>Sidebar 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        </footer>
-        <!-- Insert scripts here -->
-    </body>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				<div class="custom-menu">
+					<button type="button" id="sidebarCollapse" class="btn btn-primary">
+	        </button>
+        </div>
+	  		<div class="img bg-wrap text-center py-4" style="background-image: url(images/bg_1.jpg);">
+	  			<div class="user-logo">
+	  				<div class="img" style="background-image: url(images/logo.jpg);"></div>
+	  				<h3>Catriona Henderson</h3>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+          </li>
+          <li>
+              <a href="#"><span class="fa fa-download mr-3 notif"><small class="d-flex align-items-center justify-content-center">5</small></span> Download</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-gift mr-3"></span> Gift Code</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-trophy mr-3"></span> Top Review</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-cog mr-3"></span> Settings</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-support mr-3"></span> Support</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
+          </li>
+        </ul>
+
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5 pt-5">
+        <h2 class="mb-4">Sidebar #09</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
